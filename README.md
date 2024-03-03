@@ -20,3 +20,12 @@ This assembly program implements the Quick Sort algorithm recursively to sort an
 
 #### BinarySearch.asm:
 This assembly program utilizes the Binary Search algorithm to find the smallest index of a given query in a sorted array. It handles multiple queries and prints the corresponding index or "NaN" if the query is not found. The implementation is recursive, and parameters are passed using stack.
+
+#### minDifFp.asm:
+This assembly program reads an integer \( n \) from the input. It then proceeds to read \( n \) floating-point numbers, each on a separate line. Afterward, it calculates the difference between all pairs of numbers and finds the minimum difference. Finally, it prints the two numbers corresponding to this minimum difference, ensuring that the first number printed is the one encountered earlier in the input. The precision of the numbers is maintained up to six decimal places.
+
+#### LightImages.asm:
+This assembly program brightens valid BMP files in a given directory. It reads the address of a directory and an integer \( n \), then brightens the BMP files in parallel using \( n \) threads. The brightened images are saved with their original names in a new directory called "edited_photo" within the same directory.
+
+#### assembler.asm:
+This assembly program acts as an assembler. It reads assembly instructions in each line from an input file and generates two output files. The first output file is a binary file containing the binary representation of the instructions without spaces. The second output file lists each assembly instruction alongside its hexadecimal representation, separated by a space. For example: `4889d8 mov rax,rbx`.
